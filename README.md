@@ -6,3 +6,5 @@
 #### 4.sublime text3 前端插件 [力荐1](https://www.cnblogs.com/hykun/p/sublimeText3.html) [Emmet用法记忆表](https://docs.emmet.io/cheat-sheet/)
 #### 5. 微信小程序豆瓣api请求问题，[参考这篇文章](https://blog.csdn.net/alisa7/article/details/80492410)
 #### 6.gulp-sass编译时会间歇性的报错：找不到文件，[解决方案](https://www.cnblogs.com/venoral/p/6130353.html)
+#### 7.webstrom IDE安装破解——使用破解补丁[参考网址1](https://blog.csdn.net/voke_/article/details/76418116)[参考网址2](https://www.jianshu.com/p/0bf76557153a)
+#### 8.windows hosts文件路径：C:\Windows\System32\drivers\etc
