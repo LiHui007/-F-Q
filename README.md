@@ -7,4 +7,4 @@
 #### 5. 微信小程序豆瓣api请求问题，[参考这篇文章](https://blog.csdn.net/alisa7/article/details/80492410)
 #### 6.gulp-sass编译时会间歇性的报错：找不到文件，[解决方案](https://www.cnblogs.com/venoral/p/6130353.html)
 #### 7.webstrom IDE安装破解——使用破解补丁[参考网址1](https://blog.csdn.net/voke_/article/details/76418116)[参考网址2](https://www.jianshu.com/p/0bf76557153a)
-#### 8.windows hosts文件路径：C:\Windows\System32\drivers\etc
+#### 8.windows hosts文件路径：C:\Windows\System32\drivers\etc  修改hosts文件方法，复制出来修改，再覆盖回去
