@@ -17,3 +17,4 @@
     Error: File to import not found or unreadable: module/header. on line 3 of src/style/style.scss
     >> @import "module/header";
        ^
+#### 13.巧用margin/padding的百分比值实现高度自适应（多用于占位，避免闪烁）[链接](https://segmentfault.com/a/1190000004231995)
