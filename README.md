@@ -18,3 +18,4 @@
     >> @import "module/header";
        ^
 #### 13.巧用margin/padding的百分比值实现高度自适应（多用于占位，避免闪烁）[链接](https://segmentfault.com/a/1190000004231995)
+#### 14.可以写入到<head>标签的内容清单[参考链接](http://www.css88.com/archives/8052)[github](https://github.com/joshbuchea/HEAD)
