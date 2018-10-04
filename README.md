@@ -19,3 +19,32 @@
        ^
 #### 13.巧用margin/padding的百分比值实现高度自适应（多用于占位，避免闪烁）[链接](https://segmentfault.com/a/1190000004231995)
 #### 14.可以写入到<head>标签的内容清单[参考链接](http://www.css88.com/archives/8052)[github](https://github.com/joshbuchea/HEAD)
+#### 15.背景图固定，内容滚动且图片完整覆盖全屏--模仿百度首页。  
+    HTML
+    <body>
+        <div class="skin"></div>
+        <div class="container"></div>
+    </body>
+    
+    css
+    body {height: 100%}
+    
+    .skin {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(64, 64, 64);
+        background-image: url(../../assets/images/login/login_bg.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: -10;
+        zoom: 1;
+    }
+    
+    .container {
+        width: 100%;
+        height: 1000px;
+    }
