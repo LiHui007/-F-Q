@@ -48,3 +48,5 @@
         width: 100%;
         height: 1000px;
     }
+    
+#### 16.ul-li水平居中问题，设置li为float:left;display:inline;ul设置text-align:center;即可达到效果。
