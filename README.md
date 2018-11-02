@@ -51,3 +51,4 @@
     
 #### 16.ul-li水平居中问题，设置li为float:left;display:inline;ul设置text-align:center;即可达到效果。
 #### 17.响应式写轮播图列表，在一个外层box里写多个li，可以使用倍数选择器写不同的样式
+#### 18.vue移动端打包路径的更改[参考网站](https://blog.csdn.net/qq_21785985/article/details/80579034)
