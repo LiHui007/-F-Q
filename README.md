@@ -73,3 +73,4 @@
 2.#wrapper最好设置相对定位的样式，承接上一步嘛，为ul绝对定位奠定基础  
 3.最好延迟100ms后，再实例化，这样数据就加载完了，比较保险的做法
 * 具体的[demo](https://github.com/cubiq/iscroll/tree/master/demos)
+* 参考网址[网址1](http://caibaojian.com/iscroll-5/gettingstart.html) [网址2](https://blog.csdn.net/qq_36800701/article/details/79536983) [网址3](http://blog.51cto.com/cooca/1670508) [网址4](https://www.cnblogs.com/JoannaQ/p/3155873.html) [网址5](https://segmentfault.com/a/1190000003113280#articleHeader1)
