@@ -52,3 +52,24 @@
 #### 16.ul-li水平居中问题，设置li为float:left;display:inline;ul设置text-align:center;即可达到效果。
 #### 17.响应式写轮播图列表，在一个外层box里写多个li，可以使用倍数选择器写不同的样式
 #### 18.vue移动端打包路径的更改[参考网站](https://blog.csdn.net/qq_21785985/article/details/80579034)
+#### 19.IScroll插件使用填坑如下：
+* 先上一段官方文档的代码块
+```html
+    <div id="wrapper">
+        <ul>
+            <li>...</li>
+            <li>...</li>
+            ...
+        </ul>
+    </div>
+```
+```javascript
+    <script type="text/javascript">
+        var myScroll = new IScroll('#wrapper');
+    </script>
+```
+* 说一下坑位：  
+1.ul标签需要添加绝对定位和横向或纵向滚动的宽或高的样式，如果可以由li标签的宽或高撑开，也是可以的，或则通过js动态添加宽或高，不然就设置ul的宽或高大于#wrapper，只有ul某个方向的值大于#wrapper才能触发相应方向上的滚动事件。  
+2.#wrapper最好设置相对定位的样式，承接上一步嘛，这样ul绝对定位奠定基础  
+3.最好延迟100ms后，再实例化，这样数据就加载完了，比较保险的做法
+* 具体的[demo](https://github.com/cubiq/iscroll/tree/master/demos)
