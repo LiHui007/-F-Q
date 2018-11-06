@@ -75,3 +75,4 @@
 * 具体的[demo](https://github.com/cubiq/iscroll/tree/master/demos)
 * 参考网址[网址1](http://caibaojian.com/iscroll-5/gettingstart.html) [网址2](https://blog.csdn.net/qq_36800701/article/details/79536983) [网址3](http://blog.51cto.com/cooca/1670508) [网址4](https://www.cnblogs.com/JoannaQ/p/3155873.html) [网址5](https://segmentfault.com/a/1190000003113280#articleHeader1)
 #### 20.vscode编辑器加载文件夹时忽略node_modules文件夹，在这里[配置方法](https://stackoverflow.com/questions/30140112/how-do-i-hide-certain-files-from-the-sidebar-in-visual-studio-code/30142299#30142299)
+#### 21.css3 appearance这个属性解决移动端自定义的select标签的样式，可以这样设置：appearance：none；[官方文档](http://www.w3school.com.cn/cssref/pr_appearance.asp)
