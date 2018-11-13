@@ -77,3 +77,21 @@
 #### 20.vscode编辑器加载文件夹时忽略node_modules文件夹，在这里[配置方法](https://stackoverflow.com/questions/30140112/how-do-i-hide-certain-files-from-the-sidebar-in-visual-studio-code/30142299#30142299)
 #### 21.css3 appearance这个属性解决移动端自定义的select标签的样式，可以这样设置：appearance：none；[官方文档](http://www.w3school.com.cn/cssref/pr_appearance.asp)
 #### 22.ios input设置成readonly后会有软盘的上下箭头出现在底部，需要在input内设置 unselectable="on" onfocus="this.blur()"
+#### 23.瀑布流的布局使用css3属性
+```
+html
+<ul class="content">
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+css
+.content {
+    column-count: 3;
+    column-gap:0;
+    li {
+        break-inside: aviod;
+    }
+}
+```
